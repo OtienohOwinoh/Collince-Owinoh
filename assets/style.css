@@ -272,3 +272,120 @@ body {
 
 }
 
+#collab-statement {
+
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    margin: 12% auto;
+    width: 65%;
+    
+
+}
+
+#collaborations h3 {
+
+    font-family: "Ubuntu";
+}
+
+.behance {
+
+    margin: 3%;
+   font-family: "Roboto Condensed" ;
+   color: #655446;
+   border: 1px solid #b67429;
+   text-decoration: none;
+
+
+}
+.behance:hover {
+
+    color: #fff;
+    background-color: #b67429;
+}
+
+.collab-logos {
+
+   
+    width: 15%;
+    margin: 15px 20px 50px;
+
+}
+
+#testimonials {
+
+    background-image: linear-gradient(90deg, #b67429,#ffbf00 );
+    padding: 80px ;
+    color: #fff;
+    
+}
+
+#testimonials h2 {
+
+    font-family: "Ubuntu";
+    
+
+}
+
+
+#testimonials p {
+
+    font-family: "Roboto Condensed";
+    width: 50%;
+    margin: 20px auto;
+    line-height: 1.5;
+
+}
+
+.testimonial-image {
+
+    width: 10%;
+    height: 10%;
+    border-radius: 20%;  
+}
+
+#name-title {
+
+    font-weight:600;
+    color: #655446;
+
+}
+
+#carousel-item {
+
+    padding: 7% 15%;
+}
+
+.footer-logo {
+
+    width: 10%;
+}
+
+#contacts-p {
+
+    font-family: "Roboto Condensed" ;
+    font-weight: 200;
+}
+
+.social-icon{
+
+    margin: 20px 10px;
+    color: #655446;
+}
+
+.social-icon:hover {
+
+    transition: .3ms ease-in-out;
+    color:black;
+}
+
+#contacts {
+
+    background-image: linear-gradient(90deg, #b67429,#ffbf00 );
+    
+}
+
+.copyright {
+
+    padding-bottom: 40px;
+}
+
