@@ -5,26 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collince Owinoh</title>
+    <script src="https://kit.fontawesome.com/fdeda492d2.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/fdeda492d2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- NAVIGATION BAR  -->
 
-    <div id="nav-bar"></div>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">  
 
-    <a href=""> <img src="./assets/images/Personal-Logo.png" alt="logo"> </a>
+        
+        <div>
 
-    <ul>
-        <li><a href="">Services</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Say Hello</a></li>
+            <a href="" class="navbar-brand"> <img src="./assets/images/Logo2.png"  alt="logo" width="100px"> </a>
+
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+        <li class="nav-item"  ><a href=""class="nav-link" >Say Hello</a></li>
     </ul>
 
+    </div>
+        
+
+
+</nav>
 
 
      <!-- NAVIGATION BAR  -->
@@ -32,16 +50,32 @@
 
      <!-- LANDING PAGE -->
 
-     <div id="landing-page">
+     <section id="landing-page">
 
-        <h1> Designer, Digital Marketer & Frontend Web Developer</h1>
-        <p>I am pursuing new expressions through experiment and thought. Passionate about 
+        <h1 class="introduction-header"> Designer, Digital Marketer & Frontend Web Developer</h1>
+        <p class="introduction paragraph">I am pursuing new expressions through experiment and thought. <br> Passionate about 
             cutting edge, pixel perfect beautiful interfaces and intentionally implemented UX
+
+           
+
         </p>
 
-        <img src="./assets/images/Collince-Owinoh-image.jpg" height="200px" width="200px" alt="collince-image">
-        <img src="./assets/images/Portfolio-Landingpage.png" alt="portfolio-landing-page">
-     </div>
+       
+
+             <button type="button" class="btn btn-primary btn-lg landing-buttons "><i class="fa fa-file-text-o" aria-hidden="true"></i> Download Resume </button>
+            <button type="button" class=" btn btn-outline-info btn-lg  landing-buttons" > <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Book a Session </button>
+        
+
+       
+
+    </div>
+
+    <div class="landingpage-images">
+
+        <img src="./assets/images/Collince-Owinoh-image.jpg" height="200px" width="200px" alt="collince-image" class="collince-image">
+        <img src="./assets/images/website-body.png" alt="portfolio-landing-page" width="65%" class="portfolio-landing-page">
+     
+    </section>
 
 
 
@@ -51,15 +85,18 @@
 
       <!-- SERVICES -->
 
-      <div id="services">
+      <section id="services">
 
-       <h2>  Hi, I am Collince, Nice to meet you. </h2>
-       <p>
-        Since beginning my journey as a freelance designer over 11 years ago, I've done 
-        remote work for agencies, consulted for startups, and collaborated with talented people to create 
-        digital products for both business and consumer use. I'm quietly confident, naturally curious, 
+        <div class="bio">
+       <h2 class="bio-header">  Hi, I am Collince, Nice to meet you. </h2>
+       <p class="bio-paragraph">
+        Since beginning my journey as a freelance designer over 5 years ago, I've done 
+        remote work for agencies and startups, and collaborated with talented people to create 
+        digital products for both business and consumer use.  I'm quietly confident, naturally curious, 
         and perpetually working on improving my chops one design problem at a time.
        </p>
+
+    </div>
 
 
        <i class="fa-thin fa-layer-plus"></i>
@@ -108,7 +145,7 @@
       <h4>Bootstrap</h4>
 
       
-      </div>
+    </section>
 
       
 
@@ -117,14 +154,14 @@
 
        <!-- PROJECTS -->
 
-       <div id="projects">
+       <section id="projects">
 
         <h2> My Recent Projects</h2>
         <p>Here are a few past design projects I've worked on. Want to see more? Email me.</p>
 
-        <img src="./assets/images/Space-Tourism-Project.png" alt="Space-Tourism-Project">
-        <img src="./assets/images/Fitness-App-Project.png" alt="Fitness-App-Project">
-        <img src="./assets/images/results-component-project.png" alt="results-component-project">
+        <img src="./assets/images/Space-Tourism-Project.png" width="300px" alt="Space-Tourism-Project">
+        <img src="./assets/images/Fitness-App-Project.png" width="300px" alt="Fitness-App-Project">
+        <img src="./assets/images/results-component-project.png" width="300px" alt="results-component-project">
 
        </div>
         <!-- PROJECTS -->
@@ -137,27 +174,61 @@
                 I'm proud to have collaborated and worked with some awesome companies:
             </h2>
 
-            <img src="./assets/images/rafu-logo.jpeg" alt="rafu-logo">
-            <img src="./assets/images/Seed2Shirt Logo.png" alt="Seed2Shirt">
-            <img src="./assets/images/Jo-Harrison Logo.jpeg" alt="Jo-Harrison">
-            <img src="./assets/images/PS Logo.png" alt="positive-sparks">
+            <img src="./assets/images/rafu-logo.jpeg" width="300px" alt="rafu-logo">
+            <img src="./assets/images/Seed2Shirt Logo.png" width="300px" alt="Seed2Shirt">
+            <img src="./assets/images/Jo-Harrison Logo.jpeg" width="300px" alt="Jo-Harrison">
+            <img src="./assets/images/PS Logo.png" width="300px" alt="positive-sparks">
 
             <h3> Interested in collaborating with me?</h3>
             <p> I’m always open to discussing product design work or partnership opportunities.</p>
             <button type="button"> Start a Conversation </button>
 
-        </div>
+        </section>
 
         <!-- COLLABORATIONS -->
 
         <!-- TESTIMONIALS -->
 
-        
+        <h2> Testimomials</h2>
+        <p> 
+            People I have worked with have said some nice things...
+        </p>
+
+        <img src="./assets/images/Placeholder.jpg" width="300px" alt="testimonials-image">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi illum repellat nemo at odio, ex veritatis? Omnis quisquam incidunt veritatis modi porro consequatur nam laboriosam aperiam blanditiis. Atque, aliquid quas!
+        </p>
+
+        <img src="./assets/images/Placeholder.jpg" width="300px" alt="testimonials-image">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi illum repellat nemo at odio, ex veritatis? Omnis quisquam incidunt veritatis modi porro consequatur nam laboriosam aperiam blanditiis. Atque, aliquid quas!
+        </p>
+
+        <h2> Start a project </h2>
+        <p>
+             Interested in working together? We should queue up a time to chat. I’ll buy the coffee.
+        </p>
+
+        <button type="button"> <i class="fa-light fa-hand-horns"></i> Lets Do This</button>
+
           <!-- TESTIMONIALS -->
 
         <!-- CONTACT -->
 
         <div id="contacts">
+
+            <img src="./assets/images/Personal-Logo.png" alt="personal-logo">
+            <p>Living, learning, & leveling up one day at a time.</p>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-solid fa-envelope"></i>
+
+            <p>Handcrafted by me</p>
+            <p> <i class="fa-sharp fa-light fa-copyright"></i> Collince Otienoh Owinoh 2023</p>
+           
+
 
         </div>
 

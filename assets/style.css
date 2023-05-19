@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+
+    text-align: center;
+}
+
+.nav-item {
+
+   padding: 25px;
+     
+
+}
+
+.nav-link {
+
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #655446;
+}
+
+.nav-link:hover {
+
+    color: #b67429;
+    transition: 2ms ease-in;
+}
+
+.introduction-header {
+
+   font-size: 2.5rem;
+   font-family: "Ubuntu";
+   margin: 5% 13%;
+   color: #655446;
+    
+   
+}
+
+.introduction-paragraph {
+
+    font-family:"Roboto Condensed";
+    line-height: 1.5;
+   
+}
+
+.landing-buttons {
+
+   margin: 2%;
+   font-family: "Roboto Condensed" ;
+   background-color: #ffff;
+   color: #655446;
+   border: 1px solid #b67429;
+ 
+    
+
+}
+
+.landing-buttons:hover {
+
+  background-color: #b67429;
+  color: white;
+  background-color: 1px solid white;
+
+}
+
+.landingpage-images {
+
+    align-items: center;
+}
+
+.collince-image {
+
+    display: block;
+    border-radius: 50%;
+    margin: 3% auto;
+}
+
+.portfolio-landing-page {
+
+    margin-bottom: 0;
+}
+
+
+#services {
+
+    background-color: #b67429;
+    
+}
+
+.bio-header {
+
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    margin: 0;
+    padding-top: 8%;
+    color: white;
+
+}
+
+.bio-paragraph {
+
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: #fff;
+    margin: 20px;
+
+
+   
+}
