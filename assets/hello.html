@@ -49,49 +49,63 @@
 
     <div class="contact-form">
 
-    <img src="./images/smiling face.png" alt="say-hello" height="200px">
+    <img src="./images/smiling face.png" alt="say-hello" height="150px" id="say-hello">
 
 
     <p id="collab-statement"> 
-        Thanks for taking the time to reach out. How can I help you today?
+        Thanks for taking the time to reach out. <br> How can I help you today?
     </p>
 
-    <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-6">
-          <label for="validationCustom01" class="form-label">First name</label>
-          <input type="text" class="form-control" id="validationCustom01" required>
-          <div class="valid-feedback">
-            Looks good!
-          </div>
-        </div>
-        <div class="col-md-6">
-          <label for="validationCustom02" class="form-label">Last name</label>
-          <input type="text" class="form-control" id="validationCustom02"  required>
+    <form class="row g-3 needs-validation" id="contact-page" onsubmit="sendEmail(); reset(); return false;" novalidate>
+
+        <div class="col-md-12 col-sm-12">
+
+          <input type="text" class="form-control" id="name" placeholder="What is your name" required>
           <div class="valid-feedback">
             Looks good!
           </div>
         </div>
 
-        <div class="col-md-12">
-            <label for="validationCustom02" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="validationCustom02" required>
+        <div class="col-md-12 col-sm-12">
+         
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12">
+         
+          <input type="text" class="form-control" id="phoneNumber" placeholder="Key in your contact number" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+       
+
+          <div class="col-md-12 col-sm-12">
+            
+            <textarea class="form-control" id="message" rows="3" placeholder="How can I help you?" required></textarea>
             <div class="valid-feedback">
               Looks good!
             </div>
           </div>
 
-          <div class="col-md-12">
-            <label for="exampleFormControlTextarea1" class="form-label"> Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  required></textarea>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
+          <div class="text-center">
 
-          <a href="#" class="btn btn-outline-info btn-lg behance">  Submit </a>
+            <button class="btn btn-outline-info btn-lg behance">Submit</button>
+
+          </div>
+         
+
+      
         </div>
       </form>
    
     </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

@@ -9,9 +9,12 @@ body {
     text-align: center;
 }
 
+
+
 .nav-item {
 
    padding: 25px;
+  
      
 
 }
@@ -22,6 +25,11 @@ body {
     font-family: "Roboto Condensed";
     font-weight: 400;
     color: #655446;
+}
+
+.navbar {
+
+   
 }
 
 .nav-link:hover {
@@ -292,9 +300,10 @@ body {
 #collab-statement {
 
     font-family: "Ubuntu";
-    font-size: 2rem;
-    margin: 5% auto;
+    font-size: 1.5rem;
+    margin: 20px auto;
     width: 65%;
+    
     
 
 }
@@ -411,13 +420,52 @@ body {
 
 .contact-form {
 
-    width: 50%;
-    margin: 5% auto;
+   
+    background-color: #f5f5f5;
+    height: 100vh;
+    
+    
 }
 
 
 .contact-form label {
 
    color: #655446;
+   
 }
 
+#contact-page {
+
+    background: white;
+    border: 1px solid;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 2vw 4vw;
+  
+}
+
+#say-hello {
+
+    margin-bottom: -40px;
+}
+
+#contact-page ::placeholder {
+
+    font-size: 14px;
+    color: #655446;
+}
+
+#contact-page input{
+
+    background-color: #f5f5f5;
+}
+
+#contact-page textarea {
+
+    background-color: #f5f5f5;
+
+}
