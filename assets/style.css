@@ -42,7 +42,7 @@ body {
 
    font-size: 2.5rem;
    font-family: "Ubuntu";
-   margin: 5% 13%;
+   margin: 2% 13%;
    color: #655446;
     
    
@@ -104,10 +104,10 @@ body {
     margin: 3% auto;
 }
 
-.portfolio-landing-page {
+/* .portfolio-landing-page {
 
     margin-bottom: 0;
-}
+} */
 
 
 #bio {
@@ -138,6 +138,11 @@ body {
 
 
    
+}
+
+#web-dev {
+
+    color: #b67429;
 }
 
 #service-grid {
@@ -197,8 +202,8 @@ body {
 
 .projects {
 
-    background-size: cover;
-    background-position: center;
+  background-size:cover;
+    background-position:cover;
     padding-top: 65% ;
     width: 100%;
     position: relative;
@@ -206,13 +211,40 @@ body {
     overflow: hidden;
 }
 
+.graphics-projects {
+
+    background-size:cover;
+  background-position:inherit;
+      padding-top: 65% ;
+      width: 100%;
+      position: relative;
+      border-radius: 10px;
+      /* overflow: hidden; */
+      transition: transform 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
+    }
+  
+
+
+  
+  
+
+
+  .col:hover .graphics-projects {
+    transform: scale(1.5); 
+    z-index: 1;
+}
+
+.col:not(:hover) .graphics-projects {
+    z-index: 0;
+}
+
+
 .projects > div {
 
     color: white;
     position: absolute;
     text-align: center;
     font-family: "Ubuntu";
-    background-color: rgba(0, 0, 0, .8);
     height: 100%;
    top: 0;
     left: 0;
@@ -220,12 +252,19 @@ body {
     font-size: 1.5rem;
     line-height: 100%;
     display: flex;
+    border: 2px solid #655446;
     
+}
+
+.projects > div:hover {
+
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .projects div:hover h3 {
 
     display: none;
+    
     
 
 }
@@ -264,20 +303,11 @@ body {
 .project-but:hover  {
 
 
-    background-color: #b67429;
+    background-color: #ffffff;
+    color: #b67429;
 }
 
 
-
-
-.projects h3 {
-
-    margin: auto 5px;
-    display: block;
-    width: 100%;
-    
-
-}
 
 #projects-title {
 
@@ -294,6 +324,7 @@ body {
     font-family: "Roboto Condensed" ;
     line-height: 1.5;
     margin: 40px;
+    font-size: 1.5rem;
 
 }
 
@@ -308,14 +339,36 @@ body {
 
 }
 
+#project-title {
+
+    color: #b67429;
+    font-size: 1.5rem;
+}
+
+#project-desc {
+
+   font-size: 0.7rem;
+}
+
 #collaborations h3 {
 
     font-family: "Ubuntu";
 }
 
+#collaboration-companies {
+
+    text-align: center;
+    /* Add the following CSS to ensure the images are aligned on the same line */
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping onto the next line */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+}
+
+
 .behance {
 
-    margin: 3%;
+    margin: 1.5%;
    font-family: "Roboto Condensed" ;
    color: #655446;
    border: 1px solid #b67429;
@@ -329,18 +382,19 @@ body {
     background-color: #b67429;
 }
 
+
 .collab-logos {
 
    
-    width: 15%;
-    margin: 15px 20px 50px;
+    max-width: 200px; /* Adjust the max-width as needed */
+    margin: 20px; /* Add margin between the images */
 
 }
 
 #testimonials {
 
     background-image: linear-gradient(90deg, #b67429,#ffbf00 );
-    padding: 80px ;
+    padding: 8px 20px ;
     color: #fff;
     
 }
@@ -384,6 +438,7 @@ body {
 .footer-logo {
 
     width: 10%;
+  
    
 }
 
@@ -469,3 +524,10 @@ body {
     background-color: #f5f5f5;
 
 }
+
+
+
+
+
+
+
