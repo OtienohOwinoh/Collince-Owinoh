@@ -3,7 +3,7 @@ function sendEmail() {
       Host: "smtp.gmail.com",
       Port: "587 (TLS) or 465 (SSL)",
       Username: "coowinoh@gmail.com",
-      Password: "MyMother324@!",
+      Password: "",
       To: 'coowinoh1@gmail.com',
       From: document.getElementById("email").value,
       Subject: "New Contact Form Inquiry",
