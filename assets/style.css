@@ -12,8 +12,8 @@ body {
 
 .home {
 
-    height: 100vh;
-    overflow: hidden;
+    /* height: 100vh;
+    overflow: hidden; */
  
 }
 
@@ -209,8 +209,9 @@ body {
 
 .projects {
 
-  background-size:cover;
-    background-position:cover;
+  background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 65% ;
     width: 100%;
     position: relative;
@@ -227,7 +228,7 @@ body {
       width: 100%;
       position: relative;
       border-radius: 10px;
-      /* overflow: hidden; */
+      overflow: hidden;
       transition: transform 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
     }
   
@@ -306,6 +307,7 @@ body {
 
     background-color: #b67429;
     border: none;
+    margin: 8px;
 }
 
 .project-but:hover  {
@@ -514,7 +516,7 @@ body {
 
 #say-hello {
 
-    margin-bottom: -40px;
+    margin: 20px;
 }
 
 #contact-page ::placeholder {
@@ -534,9 +536,10 @@ body {
 
 }
 
+#projects-page {
 
-
-
+    margin-top: -80px;
+}
 
 
 
